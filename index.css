@@ -1,0 +1,198 @@
+/* 版心 */
+.container {
+    width: 1105px;
+    height:340px;
+    margin: 0 auto;
+}
+/* 顶部导航条start */
+.topbar {
+    width: 1400px;
+    height: 85px;
+    line-height: 85px;
+    position: relative;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0,0.6);
+    z-index: 10;
+}
+.welcome {
+    height: 60px;
+    line-height: 60px;
+}
+.welcome img {
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translate(0,-52%);
+}
+.welcome span {
+    font: 30px 华文细黑 常规;
+    color: rgb(255,255,255);
+    position: absolute;
+    top: 50%;
+    left: 90px;
+    transform: translate(0,-57%);
+}
+.t-nav .list li {
+    float: left;
+    text-decoration: none;
+    height: 85px;
+    line-height: 85px;
+    color: white;
+    display: block;
+    font-size: 18px;
+    margin-inline: 10px;
+    border-radius: 10px;
+}
+.special {
+    background-color: gray;
+    border-radius: 10px;
+}
+.list li a:hover {
+    background-color: rgb(111, 111, 111);
+    border-radius: 10px;
+}
+.list li a:active{
+    color: black;
+    background-color: white;
+    }
+.t-nav .list li a {
+    padding: 10px 20px;
+}
+/* 顶部导航条end */
+/* 头部图片 s */
+.head-p {
+    width: 1400px;
+    height: 550px;
+    margin: auto;
+    position: absolute;
+    top: 0px;
+    left: 252px;
+    text-align: center;
+    z-index: 5;
+}
+.head-p img {
+    width: 100%;
+    height: 100%;
+}
+.head-p h1 {
+    font-size: 60px;
+    color: rgb(243, 242, 242);
+    position: absolute;
+    top: 250px;
+    left: 150px;
+}
+/* 头部图片end */
+/* 主体 宗旨*/
+.container h2 {
+    margin-top: 550px;
+    font-size: 40px;
+}
+.list-mid {
+    width: 1130px;
+    margin-top: 45px;
+}
+.list-mid ul li {
+    font-size: 30px;
+}
+.list-mid ul {
+    float: left;
+    margin-right: 20px;
+}
+.list-mid ul li:first-child {
+    margin-bottom: 20px ;
+}
+/* 主体 课程 */
+.subject h2 {
+    text-align: center;
+    font-size: 40px;
+    margin: 100px 0;
+}
+.subject ul li img {
+    margin-right: 30px;
+    float: left;
+}
+h3 {
+    font-size: 30px;
+    height: 50px;
+    line-height: 50px;
+}
+.subject ul span {
+    line-height: 1.5;
+}
+.subject ul li {
+    margin-bottom: 90px;
+}
+.subject {
+    width: 1105px;
+    height:1050px;
+    margin: 0 auto;
+}
+/* 底部 */
+.bottombar {
+    width: 1400px;
+    height: 300px;
+    background-color: rgb(221,221,221);
+    margin: 0 auto;
+}
+.blogo {
+    width: 550px;
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    float: left;
+}
+.blogo div {
+    font: 40px "Arial Unicode MS 常规";
+    color: white;
+    border-radius: 50%;
+    background-color:rgb(52, 52, 52) ;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    float: left;
+    position: relative;
+    left: 25%;
+    top: 40%;
+    margin: 10px;
+}
+.footlinks {
+    float: right;
+    width: 700px;
+    height: 300px;
+    /* background-color: aqua; */
+}
+.footlinks ul {
+    float: left;
+    margin-top: 60px;
+    margin-right: 70px;
+}
+.footlinks ul li:first-child {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.footlinks ul li a{
+    color: rgb(40, 40, 40);
+}
+.footlinks ul li a:hover {
+    color: white;
+}
+.footlinks ul li {
+    line-height: 1.5;
+}
+/* 版心外背景 */
+.bacc {
+    width: 252px;
+    height: 2425px;
+    position: absolute;
+    top: 0;
+    background-color:rgb(35, 35, 35);   
+}
+.rightbacc {
+    width: 252px;
+    height: 2425px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color:rgb(35, 35, 35);   
+}
